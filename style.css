@@ -1,0 +1,51 @@
+body{
+	background-image: url(hp.jpg);
+	background-size: cover;
+	-o-background-size:cover;
+}
+.button{
+	background-color: #ff5b19;
+	text-align: center;
+	font-variant: small-caps;
+	border-radius: 25em;
+	width: 25em;
+	height: 5em;
+	font-size: 1.1em;
+	align-content: center;
+	border-color: orange;
+	flex-wrap: wrap-reverse;
+
+
+}
+.container{
+	text-align: center;
+	height: 5em;
+}
+hr{
+	border-color:  #ff5b19;
+	max-width: 59px;
+}
+h1{
+	color: #73d6dcd1;
+	font-variant: small-caps;
+	font-size: 10em;
+	text-align: center;
+}
+.col{
+	align-items: center;
+}
+.button:hover{
+  background-color: #2b2eab;
+  border-color: blue;
+}
+.buffer{
+	height: 3em;
+}
+body:hover{
+	transition: 1s;
+	transform: scale(1.1);
+
+}
+#space{
+	height: 5em;
+}
